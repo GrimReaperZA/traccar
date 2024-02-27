@@ -120,7 +120,12 @@ public final class Main {
 
             var services = new ArrayList<LifecycleObject>();
             for (var clazz : List.of(
-                    ScheduleManager.class, ServerManager.class, WebServer.class, BroadcastService.class)) {
+//                    ScheduleManager.class
+//                    ,
+                    ServerManager.class
+//                    ,WebServer.class
+//                    ,BroadcastService.class
+            )) {
                 var service = injector.getInstance(clazz);
                 if (service != null) {
                     service.start();

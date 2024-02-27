@@ -2,6 +2,7 @@ package org.traccar.protocol;
 
 import org.junit.jupiter.api.Test;
 import org.traccar.ProtocolTest;
+import org.traccar.yugi.RuptelaProtocolDecoder;
 
 public class RuptelaProtocolDecoderTest extends ProtocolTest {
 

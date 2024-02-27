@@ -3,6 +3,7 @@ package org.traccar.protocol;
 import org.junit.jupiter.api.Test;
 import org.traccar.ProtocolTest;
 import org.traccar.model.Position;
+import org.traccar.yugi.Vt200ProtocolDecoder;
 
 public class Vt200ProtocolDecoderTest extends ProtocolTest {
 

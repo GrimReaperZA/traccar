@@ -2,6 +2,7 @@ package org.traccar.protocol;
 
 import org.junit.jupiter.api.Test;
 import org.traccar.ProtocolTest;
+import org.traccar.yugi.S168ProtocolDecoder;
 
 public class S168ProtocolDecoderTest extends ProtocolTest {
 
