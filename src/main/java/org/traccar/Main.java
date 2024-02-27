@@ -123,7 +123,7 @@ public final class Main {
 //                    ScheduleManager.class
 //                    ,
                     ServerManager.class
-//                    ,WebServer.class
+                    ,WebServer.class
 //                    ,BroadcastService.class
             )) {
                 var service = injector.getInstance(clazz);
